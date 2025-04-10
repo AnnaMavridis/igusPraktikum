@@ -1,4 +1,3 @@
-/* Grundlegendes Layout */
 body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
@@ -7,7 +6,6 @@ body {
     padding: 0;
   }
   
-  /* Header-Bereich */
   header {
     background-color: #DA5616;
     color: white;
@@ -16,7 +14,6 @@ body {
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
   }
   
-  /* Hauptbereich */
   div {
     max-width: 800px;
     margin: 2rem auto;
@@ -26,8 +23,7 @@ body {
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.05);
   }
 
-  /* Navigation */
-nav ul {
+  nav ul {
     list-style: none;
     margin: 0;
     padding: 0;
@@ -47,20 +43,17 @@ nav ul {
     color: #ffdd57;
   }
   
-  /* Inhalte */
   .content-image, .content-video {
     max-width: 100%;
+    max-height: 50vh;
     border-radius: 8px;
     margin: 1rem 0;
   }
   
-  
-  /* Überschriften */
   h1, h2 {
     margin-top: 0;
   }
   
-  /* Liste */
   ul {
     padding-left: 1.2rem;
   }
@@ -68,8 +61,7 @@ nav ul {
   li {
     margin-bottom: 0.5rem;
   }
-  
-  /* Footer */
+
   footer {
     text-align: center;
     padding: 1rem;
@@ -79,7 +71,7 @@ nav ul {
     margin-top: 3rem;
   }
   
-  /* Responsive Anpassung */
+  /* Responsive Design */
   @media (max-width: 600px) {
     main {
       margin: 1rem;
