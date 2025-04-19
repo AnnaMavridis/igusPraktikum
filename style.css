@@ -11,7 +11,6 @@ body {
     color: white;
     padding: 2rem;
     text-align: center;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
   }
   
   div {
@@ -36,14 +35,20 @@ body {
     color: white;
     text-decoration: none;
     font-weight: bold;
-    transition: color 0.3s;
   }
   
   nav li a:hover {
     color: #ffdd57;
   }
   
-  .content-image, .content-video {
+  .content-image{
+    max-width: 100%;
+    max-height: 50vh;
+    border-radius: 8px;
+    margin: 1rem 0;
+  }
+
+  .content-video {
     max-width: 100%;
     max-height: 50vh;
     border-radius: 8px;
